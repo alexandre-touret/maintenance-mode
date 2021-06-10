@@ -1,3 +1,5 @@
+[![Java CI with Maven](https://github.com/alexandre-touret/maintenance-mode/actions/workflows/maven.yml/badge.svg)](https://github.com/alexandre-touret/maintenance-mode/actions/workflows/maven.yml)
+
 # API Maintenance Mode with Spring Boot
 This project illustrates how to easily manage a maintenance mode on Spring boot based APIs 
 
