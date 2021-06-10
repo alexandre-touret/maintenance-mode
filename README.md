@@ -86,5 +86,5 @@ curl -X 'PUT' \
 
 We can now check now that our API is ready again:
 ```shell
-curl -s http://localhost:8080/actuator/health/readiness | jq
+curl -s http://localhost:8080/actuator/health/readiness
 ```
