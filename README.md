@@ -53,7 +53,7 @@ We get an HTTP 204 answer (no-content).
 
 We can check now that our API is no longer ready:
 ```shell
-curl -s http://localhost:8080/q/health/ready | jq
+curl -s http://localhost:8080/q/health/ready
 ```
 
 Let's inspect the code of [MaintenanceController.retreiveInMaintenance()](src/main/java/info/touret/spring/maintenancemode/controller/MaintenanceController.java) to see how the HealthCheck probe is developed.
@@ -63,7 +63,7 @@ Let's try to read a random url:
 ```shell
 curl -s \
   -w "\n" \
-  'localhost:8080/api/random' | jq
+  'localhost:8080/api/random' 
 ```
 We get an answer from our API:
 
